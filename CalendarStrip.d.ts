@@ -3,8 +3,8 @@ import * as React from "react";
 
 interface CalendarStripProps {
     selectedDate: Date,
-    onPressDate: (e) => {},
-    onPressGoToday: (e) => {},
+    onPressDate: (e) => void,
+    onPressGoToday: (e) => void,
     markedDate: any[],
     onSwipeDown: () => {},
     showWeekNumber:boolean,
