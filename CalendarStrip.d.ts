@@ -6,7 +6,7 @@ interface CalendarStripProps {
     onPressDate: (e:Date) => void,
     onPressGoToday: (e:Date) => void,
     markedDate: any[],
-    onSwipeDown: () => {},
+    onSwipeDown?: () => void,
     showWeekNumber?:boolean,
     showChineseLunar?: boolean,
     weekStartsOn?: number,
